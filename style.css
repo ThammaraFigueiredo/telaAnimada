@@ -1,0 +1,53 @@
+@keyframes colorido  {
+    0%   {background-color:rgb(35, 141, 61); left:0px; top:0px;}
+    25%  {background-color:rgb(11, 147, 238); left:200px; top:0px;}
+    50%  {background-color:#ff7b00; left:200px; top:200px;}
+    75%  {background-color:#800080; left:0px; top:200px;}
+    100% {background-color:rgb(123, 255, 0); left:0px; top:0px;}
+  }
+
+*{
+    padding:0;
+    margin:0;
+    background: #ddd ;
+    width: calc(100% - 20px);
+    height: 80%;
+}
+
+.colorido{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background-color: rgb(226, 89, 135);
+    position: relative;
+    animation-name: colorido;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;  
+    animation-timing-function: ease-in;
+    animation-iteration-count: 10;
+  }
+
+  @keyframes animada  {
+    0%   {background-color:rgb(121, 76, 204); left:0px; top:0px;}
+    25%  {background-color:rgb(238, 11, 68); left:200px; top:0px;}
+    50%  {background-color:#00b7ff; left:200px; top:200px;}
+    75%  {background-color:#800080; left:0px; top:200px;}
+    100% {background-color:rgb(255, 0, 200); left:0px; top:0px;}
+  }
+
+
+
+
+.animada{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    background-color: rgb(89, 121, 226);
+    position: relative;
+    animation-name: colorido;
+    animation-duration: 10s;
+    animation-direction: alternate;  
+    animation-timing-function: ease-out;
+    animation-delay: 0.2s;
+    animation-iteration-count: 10;
+  }
